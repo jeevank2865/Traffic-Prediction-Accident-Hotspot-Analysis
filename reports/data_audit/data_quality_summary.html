@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title>UrbanPulse — Data Quality Audit Summary</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin: 30px; background: #fdfdfd; color: #1a1a1a; line-height: 1.6; }
+h1 { color: #0f172a; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; }
+h2 { color: #1e293b; margin-top: 30px; }
+table { border-collapse: collapse; width: 100%; margin-bottom: 25px; background: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+th, td { border: 1px solid #e2e8f0; padding: 10px 12px; text-align: left; font-size: 13px; }
+th { background: #f8fafc; font-weight: 600; color: #334155; }
+tr:nth-child(even) { background: #f9fafb; }
+.badge { padding: 3px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+.badge-success { background: #dcfce7; color: #166534; }
+.badge-warning { background: #fef9c3; color: #854d0e; }
+.badge-danger { background: #fee2e2; color: #991b1b; }
+.note-box { background: #eff6ff; border-left: 4px solid #3b82f6; padding: 15px; margin-bottom: 25px; border-radius: 0 4px 4px 0; font-size: 14px; }
+</style>
+</head>
+<body>
+<h1>UrbanPulse: Data Inventory & Quality Audit Summary</h1>
+<div class='note-box'><strong>Audit Objective:</strong> Inspect raw downloaded schemas, detect schema anomalies, document missingness, quantify duplicates, and evaluate cross-dataset compatibility prior to cleaning and modelling.</div>
+<h2>1. Dataset Profiles</h2>
+<table>
+<tr><th>Filename</th><th>Rows</th><th>Cols</th><th>Size (KB)</th><th>Observation Nature</th><th>Granularity</th><th>Temporal Range</th></tr>
+<tr><td><strong>bengaluru_crashes_2020_2022.csv</strong></td><td>45</td><td>12</td><td>2.2</td><td>Aggregated</td><td>Police Station annual aggregate crash/fatality counts</td><td>2021 - Fatal to 2022 - Total Cases</td></tr>
+<tr><td><strong>bengaluru_crashes_2023.csv</strong></td><td>63</td><td>8</td><td>2.6</td><td>Aggregated</td><td>Police Station annual aggregate crash/fatality counts</td><td>2023 - Fatal Cases to 2023 - Total Cases</td></tr>
+<tr><td><strong>bengaluru_crashes_2024.csv</strong></td><td>65</td><td>6</td><td>2.2</td><td>Aggregated</td><td>Police Station annual aggregate crash/fatality counts</td><td>2024-Non Fatal to 2024-Total crashes</td></tr>
+<tr><td><strong>bengaluru_crashes_trend_2007_2025.csv</strong></td><td>19</td><td>5</td><td>0.6</td><td>Aggregated</td><td>Aggregated Counts</td><td>2007 to 2025</td></tr>
+<tr><td><strong>bengaluru_registered_vehicles.csv</strong></td><td>26</td><td>13</td><td>2.7</td><td>Aggregated</td><td>City-wide annual aggregate registered vehicle counts</td><td>2017 to 2026</td></tr>
+<tr><td><strong>bengaluru_traffic_violations.csv</strong></td><td>15</td><td>13</td><td>1.5</td><td>Aggregated</td><td>City-wide annual aggregate traffic violations</td><td>2011 to 2025</td></tr>
+<tr><td><strong>india_accidents_annual_2020_2024.csv</strong></td><td>5</td><td>7</td><td>0.4</td><td>Aggregated</td><td>National annual aggregate road safety statistics</td><td>2020 to 2024</td></tr>
+<tr><td><strong>india_cities_accidents_2023_2024.csv</strong></td><td>51</td><td>14</td><td>3.3</td><td>Aggregated</td><td>Million-plus city annual aggregate road accidents</td><td>2023 Accidents to 2024 Ranking Injured</td></tr>
+<tr><td><strong>utd19_detectors_public.csv</strong></td><td>23,626</td><td>11</td><td>2522.8</td><td>Individual Sensor Event</td><td>Individual sensor/detector point infrastructure</td><td>N/A</td></tr>
+<tr><td><strong>utd19_traffic_flow_subset.csv</strong></td><td>246,802</td><td>8</td><td>10240.0</td><td>Individual Sensor Event</td><td>Individual 5-minute loop detector continuous readings</td><td>2017-05-06 to 2017-05-25</td></tr>
+<tr><td><strong>bengaluru_traffic_police_stations.kml</strong></td><td>43</td><td>6</td><td>28.6</td><td>Spatial Vector Points (Point Features)</td><td>Bengaluru Urban Traffic Police Station Geocoded Locations</td><td>2022-2024 Administrative Police Station Jurisdictions</td></tr>
+</table>
+<h2>2. Dataset Compatibility Matrix</h2>
+<table>
+<tr><th>Pair ID</th><th>Dataset 1</th><th>Dataset 2</th><th>Join Verdict</th><th>Analytical Caution</th></tr>
+<tr><td>1</td><td>bengaluru_crashes_2020_2022.csv</td><td>bengaluru_crashes_2023.csv & 2024.csv</td><td><span class='badge badge-success'>VALID: Concatenate longitudinally across years 2021-2024</span></td><td>Standardize schema across differing column definitions (e.g. Fatal Cases vs Fatal crashes)</td></tr>
+<tr><td>2</td><td>bengaluru_crashes_2020_2024 (Consolidated)</td><td>bengaluru_traffic_police_stations.kml</td><td><span class='badge badge-success'>VALID: Left join crash counts to station coordinates for spatial hotspot mapping</span></td><td>43 stations match. Stations missing from KML kept as non-spatial tabular records.</td></tr>
+<tr><td>3</td><td>bengaluru_crashes_2020_2024</td><td>bengaluru_traffic_violations.csv</td><td><span class='badge badge-warning'>RESTRICTED: Contextual comparison only; no causal road-level attribution</span></td><td>Violations reflect enforcement intensity, not accident occurrences.</td></tr>
+<tr><td>4</td><td>bengaluru_crashes_2020_2024</td><td>bengaluru_registered_vehicles.csv</td><td><span class='badge badge-warning'>RESTRICTED: Vehicle growth context only; cannot treat as road traffic volume</span></td><td>Vehicle registration counts do not represent active road traffic volumes.</td></tr>
+<tr><td>5</td><td>utd19_traffic_flow_subset.csv</td><td>utd19_detectors_public.csv</td><td><span class='badge badge-success'>VALID: Join flow measurements to detector metadata (road, lanes, limit, lat, long)</span></td><td>Never relabel Augsburg / UTD19 loop data as Bengaluru local measurements.</td></tr>
+<tr><td>6</td><td>bengaluru_crashes_trend_2007_2025.csv</td><td>india_accidents_annual_2020_2024.csv</td><td><span class='badge badge-success'>VALID: Macro benchmarking of Bengaluru crash share within national trends</span></td><td>National trends are aggregate counts and cannot identify road hotspots.</td></tr>
+</table>
+<h2>3. Missingness & Quality Overview</h2>
+<p>Detailed column-level profiles have been exported to <code>reports/data_audit/missingness_report.csv</code> and <code>reports/data_dictionary.csv</code>.</p>
+</body>
+</html>
+

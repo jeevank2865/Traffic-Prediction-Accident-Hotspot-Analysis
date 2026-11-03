@@ -1,0 +1,39 @@
+[2026-11-02 21:16:53] === UrbanPulse Automated Data Acquisition Started === 
+[2026-11-02 21:16:53] Project Directory: /Users/jeevan.k/.gemini/antigravity-ide/scratch/UrbanPulse 
+[2026-11-02 21:16:53] Raw Data Directory: /Users/jeevan.k/.gemini/antigravity-ide/scratch/UrbanPulse/data/raw 
+[2026-11-02 21:16:53] Disk Space Status:
+ Filesystem      Size    Used   Avail Capacity iused ifree %iused  Mounted on
+/dev/disk3s5   228Gi   175Gi    37Gi    83%    1.8M  393M    0%   /System/Volumes/Data 
+[2026-11-02 21:16:53] Initiating download for dataset_a_crashes_2020_2022 -> bengaluru_crashes_2020_2022.csv 
+[2026-11-02 21:16:53]   Attempt 1 of 3 for bengaluru_crashes_2020_2022.csv 
+[2026-11-02 21:16:54]   HTTP Response Code: 200 
+[2026-11-02 21:16:54]   SUCCESS: Downloaded bengaluru_crashes_2020_2022.csv (2251 bytes, SHA256: 59219956f61709b8fcee4dbaec5dcbcf7d07f6dbf09614237a284f83e7e698ab) 
+[2026-11-02 21:16:54] Initiating download for dataset_a_crashes_2023 -> bengaluru_crashes_2023.csv 
+[2026-11-02 21:16:54]   Attempt 1 of 3 for bengaluru_crashes_2023.csv 
+[2026-11-02 21:16:54]   HTTP Response Code: 200 
+[2026-11-02 21:16:54]   SUCCESS: Downloaded bengaluru_crashes_2023.csv (2651 bytes, SHA256: eb32e96f9f0b158b1c374a6119a89d2f2dcb0348133162c5db185443c52df74d) 
+[2026-11-02 21:16:54] File bengaluru_crashes_2024.csv already exists and is non-empty (2277 bytes). Verifying... 
+[2026-11-02 21:16:54] File bengaluru_crashes_trend_2007_2025.csv already exists and is non-empty (635 bytes). Verifying... 
+[2026-11-02 21:16:54] File bengaluru_traffic_police_stations.kml already exists and is non-empty (29314 bytes). Verifying... 
+[2026-11-02 21:16:54] File bengaluru_traffic_violations.csv already exists and is non-empty (1546 bytes). Verifying... 
+[2026-11-02 21:16:54] File bengaluru_registered_vehicles.csv already exists and is non-empty (2715 bytes). Verifying... 
+[2026-11-02 21:16:54] File utd19_detectors_public.csv already exists and is non-empty (2583332 bytes). Verifying... 
+[2026-11-02 21:16:54] File utd19_traffic_flow_subset.csv already exists and is non-empty (10485758 bytes). Verifying... 
+[2026-11-02 21:16:54] File india_accidents_annual_2020_2024.csv already exists and is non-empty (394 bytes). Verifying... 
+[2026-11-02 21:16:54] File india_cities_accidents_2023_2024.csv already exists and is non-empty (3409 bytes). Verifying... 
+[2026-11-02 21:16:54] Initiating download for dataset_f_weather_openmeteo -> bengaluru_weather_openmeteo.json 
+[2026-11-02 21:16:54]   Attempt 1 of 3 for bengaluru_weather_openmeteo.json 
+[2026-11-02 21:17:24]   Warning on attempt 1: Timeout was reached [archive-api.open-meteo.com]:
+Operation timed out after 30003 milliseconds with 0 bytes received 
+[2026-11-02 21:17:26]   Attempt 2 of 3 for bengaluru_weather_openmeteo.json 
+[2026-11-02 21:17:56]   Warning on attempt 2: Timeout was reached [archive-api.open-meteo.com]:
+Operation timed out after 30002 milliseconds with 0 bytes received 
+[2026-11-02 21:17:58]   Attempt 3 of 3 for bengaluru_weather_openmeteo.json 
+[2026-11-02 21:18:28]   Warning on attempt 3: Timeout was reached [archive-api.open-meteo.com]:
+Operation timed out after 30001 milliseconds with 0 bytes received 
+[2026-11-02 21:18:30] FAILED download for bengaluru_weather_openmeteo.json after 3 attempts: Timeout was reached [archive-api.open-meteo.com]:
+Operation timed out after 30001 milliseconds with 0 bytes received 
+[2026-11-02 21:18:30] MANUAL REQUIRED: dataset_f_weather_imd requires interactive portal access / registration. Skipping automated download. 
+[2026-11-02 21:18:30] Download manifest written to: /Users/jeevan.k/.gemini/antigravity-ide/scratch/UrbanPulse/reports/data_audit/download_manifest.csv 
+[2026-11-02 21:18:30] Source register written to: /Users/jeevan.k/.gemini/antigravity-ide/scratch/UrbanPulse/reports/data_audit/source_register.csv 
+[2026-11-02 21:18:30] === Download Pipeline Completed === 

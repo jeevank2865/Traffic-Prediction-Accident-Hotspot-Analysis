@@ -1,0 +1,11 @@
+"filename","total_rows","duplicate_rows","duplicate_percentage","primary_key_candidate","key_duplicates"
+"bengaluru_crashes_2020_2022.csv",45,0,0,"Zone",41
+"bengaluru_crashes_2023.csv",63,0,0,"Zone",57
+"bengaluru_crashes_2024.csv",65,0,0,"Zone",59
+"bengaluru_crashes_trend_2007_2025.csv",19,0,0,"Year",0
+"bengaluru_registered_vehicles.csv",26,0,0,"Sl No",3
+"bengaluru_traffic_violations.csv",15,0,0,"YEAR",0
+"india_accidents_annual_2020_2024.csv",5,0,0,"Year",0
+"india_cities_accidents_2023_2024.csv",51,0,0,"Sl No",0
+"utd19_detectors_public.csv",23626,0,0,"detid",1630
+"utd19_traffic_flow_subset.csv",246802,0,0,"day",246782

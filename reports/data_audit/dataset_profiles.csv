@@ -1,0 +1,12 @@
+"filename","row_count","col_count","file_size_bytes","has_utf8_bom","observation_nature","granularity","temporal_coverage","geographic_coverage","duplicate_rows"
+"bengaluru_crashes_2020_2022.csv",45,12,2251,FALSE,"Aggregated","Police Station annual aggregate crash/fatality counts","2021 - Fatal to 2022 - Total Cases","City of Bengaluru, Karnataka, India",0
+"bengaluru_crashes_2023.csv",63,8,2651,FALSE,"Aggregated","Police Station annual aggregate crash/fatality counts","2023 - Fatal Cases to 2023 - Total Cases","City of Bengaluru, Karnataka, India",0
+"bengaluru_crashes_2024.csv",65,6,2277,TRUE,"Aggregated","Police Station annual aggregate crash/fatality counts","2024-Non Fatal to 2024-Total crashes","City of Bengaluru, Karnataka, India",0
+"bengaluru_crashes_trend_2007_2025.csv",19,5,635,FALSE,"Aggregated","Aggregated Counts","2007 to 2025","City of Bengaluru, Karnataka, India",0
+"bengaluru_registered_vehicles.csv",26,13,2715,TRUE,"Aggregated","City-wide annual aggregate registered vehicle counts","2017 to 2026","City of Bengaluru, Karnataka, India",0
+"bengaluru_traffic_violations.csv",15,13,1546,TRUE,"Aggregated","City-wide annual aggregate traffic violations","2011 to 2025","City of Bengaluru, Karnataka, India",0
+"india_accidents_annual_2020_2024.csv",5,7,394,TRUE,"Aggregated","National annual aggregate road safety statistics","2020 to 2024","India National / 53 Million-Plus Cities",0
+"india_cities_accidents_2023_2024.csv",51,14,3409,TRUE,"Aggregated","Million-plus city annual aggregate road accidents","2023 Accidents to 2024 Ranking Injured","India National / 53 Million-Plus Cities",0
+"utd19_detectors_public.csv",23626,11,2583332,FALSE,"Individual Sensor Event","Individual sensor/detector point infrastructure","N/A","Augsburg / European Urban Network (UTD19 Open Benchmark)",0
+"utd19_traffic_flow_subset.csv",246802,8,10485758,FALSE,"Individual Sensor Event","Individual 5-minute loop detector continuous readings","2017-05-06 to 2017-05-25","Augsburg / European Urban Network (UTD19 Open Benchmark)",0
+"bengaluru_traffic_police_stations.kml",43,6,29314,FALSE,"Spatial Vector Points (Point Features)","Bengaluru Urban Traffic Police Station Geocoded Locations","2022-2024 Administrative Police Station Jurisdictions","Bengaluru Urban District, Karnataka (WGS84 EPSG:4326)",0

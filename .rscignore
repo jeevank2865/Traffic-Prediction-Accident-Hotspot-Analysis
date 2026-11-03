@@ -1,0 +1,8 @@
+# Files and directories to ignore when deploying to shinyapps.io
+.DS_Store
+.git
+.gitignore
+tests/
+Rplots.pdf
+data/raw/
+scripts/

@@ -1,0 +1,77 @@
+"dataset","column_name","total_records","missing_count","missing_pct","is_essential","proposed_treatment","treatment_rationale","records_affected","valid_records_retained"
+"bengaluru_crashes_2020_2022","Zone",45,1,2.22,TRUE,"Contextual Review / Complete Case Analysis","Exploratory variable with modest missingness.",1,44
+"bengaluru_crashes_2020_2022","Station",45,0,0,TRUE,"None (Complete)","No missing values present.",0,45
+"bengaluru_crashes_2020_2022","2021 - Fatal",45,0,0,FALSE,"None (Complete)","No missing values present.",0,45
+"bengaluru_crashes_2020_2022","2021 - Killed",45,0,0,FALSE,"None (Complete)","No missing values present.",0,45
+"bengaluru_crashes_2020_2022","2021 - Non-Fatal",45,0,0,FALSE,"None (Complete)","No missing values present.",0,45
+"bengaluru_crashes_2020_2022","2021 - Injured",45,0,0,FALSE,"None (Complete)","No missing values present.",0,45
+"bengaluru_crashes_2020_2022","2021 - Total Cases",45,0,0,TRUE,"None (Complete)","No missing values present.",0,45
+"bengaluru_crashes_2020_2022","2022 - Fatal",45,0,0,FALSE,"None (Complete)","No missing values present.",0,45
+"bengaluru_crashes_2020_2022","2022 - Killed",45,0,0,FALSE,"None (Complete)","No missing values present.",0,45
+"bengaluru_crashes_2020_2022","2022 - Non-Fatal",45,0,0,FALSE,"None (Complete)","No missing values present.",0,45
+"bengaluru_crashes_2020_2022","2022 - Injured",45,0,0,FALSE,"None (Complete)","No missing values present.",0,45
+"bengaluru_crashes_2020_2022","2022 - Total Cases",45,0,0,FALSE,"None (Complete)","No missing values present.",0,45
+"bengaluru_crashes_2023","Zone",63,10,15.87,FALSE,"Contextual Review / Complete Case Analysis","Exploratory variable with modest missingness.",10,53
+"bengaluru_crashes_2023","Sub-division",63,5,7.94,FALSE,"Encode as Explicit 'Unknown' Category","Categorical administrative attribute: preserves missingness signal without fabricating location.",5,58
+"bengaluru_crashes_2023","Station",63,0,0,TRUE,"None (Complete)","No missing values present.",0,63
+"bengaluru_crashes_2023","2023 - Fatal Cases",63,0,0,FALSE,"None (Complete)","No missing values present.",0,63
+"bengaluru_crashes_2023","2023 - Killed People",63,0,0,FALSE,"None (Complete)","No missing values present.",0,63
+"bengaluru_crashes_2023","2023 - Non-Fatal",63,0,0,FALSE,"None (Complete)","No missing values present.",0,63
+"bengaluru_crashes_2023","2023 - Injured People",63,0,0,FALSE,"None (Complete)","No missing values present.",0,63
+"bengaluru_crashes_2023","2023 - Total Cases",63,0,0,TRUE,"None (Complete)","No missing values present.",0,63
+"bengaluru_crashes_2024","Zone",65,10,15.38,FALSE,"Contextual Review / Complete Case Analysis","Exploratory variable with modest missingness.",10,55
+"bengaluru_crashes_2024","Sub-division",65,5,7.69,FALSE,"Encode as Explicit 'Unknown' Category","Categorical administrative attribute: preserves missingness signal without fabricating location.",5,60
+"bengaluru_crashes_2024","Station",65,0,0,TRUE,"None (Complete)","No missing values present.",0,65
+"bengaluru_crashes_2024","2024-Non Fatal",65,0,0,FALSE,"None (Complete)","No missing values present.",0,65
+"bengaluru_crashes_2024","2024-Fatal crashes",65,0,0,FALSE,"None (Complete)","No missing values present.",0,65
+"bengaluru_crashes_2024","2024-Total crashes",65,0,0,TRUE,"None (Complete)","No missing values present.",0,65
+"bengaluru_crashes_trend","Year",19,0,0,TRUE,"None (Complete)","No missing values present.",0,19
+"bengaluru_crashes_trend","Fatal Road Accidents",19,0,0,FALSE,"None (Complete)","No missing values present.",0,19
+"bengaluru_crashes_trend","Killed",19,0,0,FALSE,"None (Complete)","No missing values present.",0,19
+"bengaluru_crashes_trend","Non-Fatal Road Accidents",19,0,0,FALSE,"None (Complete)","No missing values present.",0,19
+"bengaluru_crashes_trend","Total",19,0,0,TRUE,"None (Complete)","No missing values present.",0,19
+"bengaluru_traffic_violations","YEAR",15,0,0,TRUE,"None (Complete)","No missing values present.",0,15
+"bengaluru_traffic_violations","M.V.Act Cases",15,0,0,FALSE,"None (Complete)","No missing values present.",0,15
+"bengaluru_traffic_violations","M.V.Act Fine",15,0,0,FALSE,"None (Complete)","No missing values present.",0,15
+"bengaluru_traffic_violations","K.P.Act Cases",15,0,0,FALSE,"None (Complete)","No missing values present.",0,15
+"bengaluru_traffic_violations","K.P.Act Fine",15,0,0,FALSE,"None (Complete)","No missing values present.",0,15
+"bengaluru_traffic_violations","Towing Cases",15,0,0,FALSE,"None (Complete)","No missing values present.",0,15
+"bengaluru_traffic_violations","Towing Charges",15,0,0,FALSE,"None (Complete)","No missing values present.",0,15
+"bengaluru_traffic_violations","K.T.C Act Cases",15,4,26.67,FALSE,"Explicit Zero vs Not Applicable Distinction","Administrative enforcement data: system automation/towing not active in earlier years (valid structural zero/NA).",4,11
+"bengaluru_traffic_violations","K.T.C Act Fine",15,4,26.67,FALSE,"Contextual Review / Complete Case Analysis","Exploratory variable with modest missingness.",4,11
+"bengaluru_traffic_violations","Automation cases",15,0,0,FALSE,"None (Complete)","No missing values present.",0,15
+"bengaluru_traffic_violations","Automation Fine",15,0,0,FALSE,"None (Complete)","No missing values present.",0,15
+"bengaluru_traffic_violations","Total Cases Booked",15,0,0,TRUE,"None (Complete)","No missing values present.",0,15
+"bengaluru_traffic_violations","Total Fine Collected",15,0,0,FALSE,"None (Complete)","No missing values present.",0,15
+"bengaluru_registered_vehicles","Sl No",26,4,15.38,FALSE,"Contextual Review / Complete Case Analysis","Exploratory variable with modest missingness.",4,22
+"bengaluru_registered_vehicles","Category",26,0,0,TRUE,"None (Complete)","No missing values present.",0,26
+"bengaluru_registered_vehicles","Type of Vehicle",26,8,30.77,TRUE,"Contextual Review / Complete Case Analysis","Exploratory variable with modest missingness.",8,18
+"bengaluru_registered_vehicles","2017",26,0,0,FALSE,"None (Complete)","No missing values present.",0,26
+"bengaluru_registered_vehicles","2018",26,0,0,FALSE,"None (Complete)","No missing values present.",0,26
+"bengaluru_registered_vehicles","2019",26,0,0,FALSE,"None (Complete)","No missing values present.",0,26
+"bengaluru_registered_vehicles","2020",26,0,0,FALSE,"None (Complete)","No missing values present.",0,26
+"bengaluru_registered_vehicles","2021",26,0,0,FALSE,"None (Complete)","No missing values present.",0,26
+"bengaluru_registered_vehicles","2022",26,0,0,FALSE,"None (Complete)","No missing values present.",0,26
+"bengaluru_registered_vehicles","2023",26,0,0,FALSE,"None (Complete)","No missing values present.",0,26
+"bengaluru_registered_vehicles","2024",26,0,0,FALSE,"None (Complete)","No missing values present.",0,26
+"bengaluru_registered_vehicles","2025",26,0,0,FALSE,"None (Complete)","No missing values present.",0,26
+"bengaluru_registered_vehicles","2026",26,0,0,FALSE,"None (Complete)","No missing values present.",0,26
+"utd19_traffic_flow_subset","day",246802,0,0,TRUE,"None (Complete)","No missing values present.",0,246802
+"utd19_traffic_flow_subset","interval",246802,0,0,TRUE,"None (Complete)","No missing values present.",0,246802
+"utd19_traffic_flow_subset","detid",246802,0,0,TRUE,"None (Complete)","No missing values present.",0,246802
+"utd19_traffic_flow_subset","flow",246802,0,0,TRUE,"None (Complete)","No missing values present.",0,246802
+"utd19_traffic_flow_subset","occ",246802,0,0,FALSE,"None (Complete)","No missing values present.",0,246802
+"utd19_traffic_flow_subset","error",246802,135374,54.85,FALSE,"Contextual Review / Complete Case Analysis","Exploratory variable with modest missingness.",135374,111428
+"utd19_traffic_flow_subset","city",246802,0,0,FALSE,"None (Complete)","No missing values present.",0,246802
+"utd19_traffic_flow_subset","speed",246802,246802,100,FALSE,"Training-Set Median Imputation with Missingness Indicator","Continuous traffic predictor: single loop detectors often lack speed. Preserves sample size without leakage.",246802,0
+"utd19_detectors_public","detid",23626,0,0,TRUE,"None (Complete)","No missing values present.",0,23626
+"utd19_detectors_public","length",23626,0,0,FALSE,"None (Complete)","No missing values present.",0,23626
+"utd19_detectors_public","pos",23626,45,0.19,FALSE,"Contextual Review / Complete Case Analysis","Exploratory variable with modest missingness.",45,23581
+"utd19_detectors_public","fclass",23626,0,0,FALSE,"None (Complete)","No missing values present.",0,23626
+"utd19_detectors_public","road",23626,1541,6.52,TRUE,"Encode as Explicit 'Unknown' Category","Categorical administrative attribute: preserves missingness signal without fabricating location.",1541,22085
+"utd19_detectors_public","limit",23626,6632,28.07,FALSE,"Contextual Review / Complete Case Analysis","Exploratory variable with modest missingness.",6632,16994
+"utd19_detectors_public","citycode",23626,0,0,FALSE,"None (Complete)","No missing values present.",0,23626
+"utd19_detectors_public","lanes",23626,4,0.02,FALSE,"Contextual Review / Complete Case Analysis","Exploratory variable with modest missingness.",4,23622
+"utd19_detectors_public","linkid",23626,605,2.56,FALSE,"Contextual Review / Complete Case Analysis","Exploratory variable with modest missingness.",605,23021
+"utd19_detectors_public","long",23626,0,0,TRUE,"None (Complete)","No missing values present.",0,23626
+"utd19_detectors_public","lat",23626,0,0,TRUE,"None (Complete)","No missing values present.",0,23626

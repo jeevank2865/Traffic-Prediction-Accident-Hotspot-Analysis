@@ -1,0 +1,35 @@
+# Operating System Artifacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# R History, Workspace, and Configuration
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+.Renviron.*
+.Rproj.user/
+Rplots.pdf
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+credentials.json
+
+# Python Virtual Environments & Caches (if any)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+node_modules/
+
+# Shiny & Local Run Artifacts
+*.tmp
+*.log
+

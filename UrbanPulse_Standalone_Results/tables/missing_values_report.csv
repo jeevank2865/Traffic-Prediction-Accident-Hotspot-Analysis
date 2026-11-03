@@ -1,0 +1,82 @@
+"Dataset","Column","Data_Type","NA_Count","Blank_Count","Total_Missing","Missing_Pct"
+"Traffic Flow (UTD19)","day","Date",0,0,0,0
+"Traffic Flow (UTD19)","interval","numeric",0,0,0,0
+"Traffic Flow (UTD19)","detid","character",0,0,0,0
+"Traffic Flow (UTD19)","flow","numeric",0,0,0,0
+"Traffic Flow (UTD19)","occ","numeric",0,0,0,0
+"Traffic Flow (UTD19)","error","numeric",135374,0,135374,54.85
+"Traffic Flow (UTD19)","city","character",0,0,0,0
+"Traffic Flow (UTD19)","speed","logical",246802,0,246802,100
+"Detectors Metadata","detid","character",0,0,0,0
+"Detectors Metadata","length","numeric",0,0,0,0
+"Detectors Metadata","pos","numeric",45,0,45,0.19
+"Detectors Metadata","fclass","character",0,0,0,0
+"Detectors Metadata","road","character",1541,0,1541,6.52
+"Detectors Metadata","limit","numeric",6640,0,6640,28.1
+"Detectors Metadata","citycode","character",0,0,0,0
+"Detectors Metadata","lanes","numeric",4,0,4,0.02
+"Detectors Metadata","linkid","numeric",605,0,605,2.56
+"Detectors Metadata","long","numeric",0,0,0,0
+"Detectors Metadata","lat","numeric",0,0,0,0
+"Bengaluru Crash Station Panel","year","numeric",0,0,0,0
+"Bengaluru Crash Station Panel","zone","character",0,0,0,0
+"Bengaluru Crash Station Panel","sub_division","character",0,0,0,0
+"Bengaluru Crash Station Panel","station_raw","character",0,0,0,0
+"Bengaluru Crash Station Panel","station_norm","character",0,0,0,0
+"Bengaluru Crash Station Panel","fatal_crashes","numeric",0,0,0,0
+"Bengaluru Crash Station Panel","killed_people","numeric",50,0,50,26.88
+"Bengaluru Crash Station Panel","non_fatal_crashes","numeric",0,0,0,0
+"Bengaluru Crash Station Panel","injured_people","numeric",50,0,50,26.88
+"Bengaluru Crash Station Panel","total_crashes","numeric",0,0,0,0
+"Bengaluru Crash Station Panel","total_mismatch_flag","numeric",0,0,0,0
+"Bengaluru Crash Station Panel","longitude","numeric",62,0,62,33.33
+"Bengaluru Crash Station Panel","latitude","numeric",62,0,62,33.33
+"Bengaluru Crash Station Panel","coord_valid","logical",0,0,0,0
+"Bengaluru Crash Station Panel","fatality_rate","numeric",0,0,0,0
+"Bengaluru Crash Trend 2007-2025","Year","numeric",0,0,0,0
+"Bengaluru Crash Trend 2007-2025","Fatal Road Accidents","numeric",0,0,0,0
+"Bengaluru Crash Trend 2007-2025","Killed","numeric",0,0,0,0
+"Bengaluru Crash Trend 2007-2025","Non-Fatal Road Accidents","numeric",0,0,0,0
+"Bengaluru Crash Trend 2007-2025","Total","numeric",0,0,0,0
+"Registered Vehicles","Sl No","character",4,0,4,15.38
+"Registered Vehicles","Category","character",0,0,0,0
+"Registered Vehicles","Type of Vehicle","character",8,0,8,30.77
+"Registered Vehicles","2017","numeric",0,0,0,0
+"Registered Vehicles","2018","numeric",0,0,0,0
+"Registered Vehicles","2019","numeric",0,0,0,0
+"Registered Vehicles","2020","numeric",0,0,0,0
+"Registered Vehicles","2021","numeric",0,0,0,0
+"Registered Vehicles","2022","numeric",0,0,0,0
+"Registered Vehicles","2023","numeric",0,0,0,0
+"Registered Vehicles","2024","numeric",0,0,0,0
+"Registered Vehicles","2025","numeric",0,0,0,0
+"Registered Vehicles","2026","numeric",0,0,0,0
+"Traffic Violations","YEAR","numeric",0,0,0,0
+"Traffic Violations","M.V.Act Cases","numeric",0,0,0,0
+"Traffic Violations","M.V.Act Fine","numeric",0,0,0,0
+"Traffic Violations","K.P.Act Cases","numeric",0,0,0,0
+"Traffic Violations","K.P.Act Fine","numeric",0,0,0,0
+"Traffic Violations","Towing Cases","numeric",0,0,0,0
+"Traffic Violations","Towing Charges","numeric",0,0,0,0
+"Traffic Violations","K.T.C Act Cases","numeric",4,0,4,26.67
+"Traffic Violations","K.T.C Act Fine","numeric",4,0,4,26.67
+"Traffic Violations","Automation cases","numeric",0,0,0,0
+"Traffic Violations","Automation Fine","numeric",0,0,0,0
+"Traffic Violations","Total Cases Booked","numeric",0,0,0,0
+"Traffic Violations","Total Fine Collected","numeric",0,0,0,0
+"Geocoded Hotspots","year","numeric",0,0,0,0
+"Geocoded Hotspots","zone","character",0,0,0,0
+"Geocoded Hotspots","sub_division","character",0,0,0,0
+"Geocoded Hotspots","station_raw","character",0,0,0,0
+"Geocoded Hotspots","station_norm","character",0,0,0,0
+"Geocoded Hotspots","fatal_crashes","numeric",0,0,0,0
+"Geocoded Hotspots","killed_people","numeric",32,0,32,25.81
+"Geocoded Hotspots","non_fatal_crashes","numeric",0,0,0,0
+"Geocoded Hotspots","injured_people","numeric",32,0,32,25.81
+"Geocoded Hotspots","total_crashes","numeric",0,0,0,0
+"Geocoded Hotspots","total_mismatch_flag","numeric",0,0,0,0
+"Geocoded Hotspots","longitude","numeric",0,0,0,0
+"Geocoded Hotspots","latitude","numeric",0,0,0,0
+"Geocoded Hotspots","coord_valid","logical",0,0,0,0
+"Geocoded Hotspots","fatality_rate","numeric",0,0,0,0
+"Geocoded Hotspots","spatial_corridor_id","character",4,0,4,3.23

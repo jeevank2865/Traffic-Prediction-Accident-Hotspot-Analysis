@@ -1,0 +1,187 @@
+"year","zone","sub_division","station_raw","station_norm","fatal_crashes","killed_people","non_fatal_crashes","injured_people","total_crashes","total_mismatch_flag","longitude","latitude","coord_valid","fatality_rate"
+2021,"East","Unknown","Cubbon Park","cubbonpark",4,4,34,35,38,0,77.5978499995698,12.9759333330466,TRUE,0.1053
+2021,"East","Unknown","H.Grounds","high grounds",2,2,36,38,38,0,77.5830472220116,12.9847111107347,TRUE,0.0526
+2021,"East","Unknown","S.S.Nagar","sadashivanagar",4,4,60,51,64,0,77.572563889212,13.0148472217016,TRUE,0.0625
+2021,"East","Unknown","U.Gate","upparpet",3,3,22,26,25,0,77.5750017556543,12.9745057476114,TRUE,0.12
+2021,"East","Unknown","Ashokanagar","ashoknagar",5,5,37,48,42,0,77.6103305562667,12.9716333327417,TRUE,0.119
+2021,"East","Unknown","W.Garden","wilson garden",9,9,49,55,58,0,NA,NA,FALSE,0.1552
+2021,"East","Unknown","Ulsoor","halasooru",19,19,28,35,47,0,77.6253111106229,12.9747000002684,TRUE,0.4043
+2021,"East","Unknown","Indiranagar","indiranagar",5,5,27,28,32,0,NA,NA,FALSE,0.1562
+2021,"East","Unknown","F.Town","ftown",10,10,9,7,19,0,NA,NA,FALSE,0.5263
+2021,"East","Unknown","Banasawadi","banasawadi",20,21,79,81,99,0,77.6402194435504,13.0195027775533,TRUE,0.2121
+2021,"East","Unknown","Shivajinagar","shivajinagar",3,3,8,5,11,0,77.6034222217947,12.9879194436417,TRUE,0.2727
+2021,"East","Unknown","K G Halli","k g halli",5,5,17,18,22,0,77.6190444442519,13.0195361113638,TRUE,0.2273
+2021,"East","Unknown","Adugodi","adugodi",2,8,17,20,19,0,77.608588888716,12.9415222221275,TRUE,0.4211
+2021,"East","Unknown","Madivala","madivala",8,8,46,51,54,0,77.6207250004286,12.9209916672212,TRUE,0.1481
+2021,"East","Unknown","Electronic City","electronic city",27,30,102,116,129,0,77.6617833330928,12.8391916668387,TRUE,0.2326
+2021,"East","Unknown","Mico layout","mico layout",9,9,61,60,70,0,77.6000611111641,12.9132777784321,TRUE,0.1286
+2021,"East","Unknown","HuliMavu","hulimavu",6,6,68,71,74,0,77.5889944438037,12.8565111111396,TRUE,0.0811
+2021,"East","Unknown","HSR Layout","hsr layout",15,15,41,49,56,0,77.6616669484753,12.9219612532365,TRUE,0.2679
+2021,"East","Unknown","K.R.Pura","krpura",17,18,47,48,64,0,NA,NA,FALSE,0.2812
+2021,"East","Unknown","Airport","airport",34,35,109,113,143,0,NA,NA,FALSE,0.2448
+2021,"East","Unknown","White Field","white field",24,24,67,83,91,0,NA,NA,FALSE,0.2637
+2021,"West","Unknown","Upparpet","upparpet",4,4,17,18,21,0,77.5750017556543,12.9745057476114,TRUE,0.1905
+2021,"West","Unknown","Chickpet","chickpet",6,6,24,21,30,0,77.5681528496062,12.9609817288076,TRUE,0.2
+2021,"West","Unknown","City Market","city market",2,2,5,4,7,0,77.5736625414289,12.9707580957203,TRUE,0.2857
+2021,"West","Unknown","Magadi Road","magadi road",4,4,24,23,28,0,77.5510560002498,12.9746540000128,TRUE,0.1429
+2021,"West","Unknown","Vijayanagar","vijayanagar",8,8,86,96,94,0,77.5400378966948,12.9676958598672,TRUE,0.0851
+2021,"West","Unknown","B.Pura","bpura",21,21,100,90,121,0,NA,NA,FALSE,0.1736
+2021,"West","Unknown","Kamakshipalya","kamakshipalya",33,34,124,117,157,0,77.5327008333068,12.9821666670146,TRUE,0.2166
+2021,"West","Unknown","Kengeri","kengeri",22,24,85,82,107,0,77.4815072286419,12.9105461664563,TRUE,0.2243
+2021,"West","Unknown","Malleswaram","malleswaram",6,6,30,32,36,0,NA,NA,FALSE,0.1667
+2021,"West","Unknown","Rajajinagar","rajajinagar",14,14,52,58,66,0,77.5542211644862,12.9945588996388,TRUE,0.2121
+2021,"West","Unknown","Y.Pura","ypura",13,14,66,59,79,0,NA,NA,FALSE,0.1772
+2021,"West","Unknown","Peenya","peenya",22,22,103,113,125,0,77.5211641802431,13.0360555191998,TRUE,0.176
+2021,"West","Unknown","Jalahalli","jalahalli",22,23,68,80,90,0,77.5494851412181,13.0486969233808,TRUE,0.2556
+2021,"West","Unknown","Chamarajapet","chamarajapet",6,6,22,24,28,0,NA,NA,FALSE,0.2143
+2021,"West","Unknown","Basavanagudi","basavanagudi",5,5,43,31,48,0,77.5742712536436,12.9420741309031,TRUE,0.1042
+2021,"West","Unknown","Jayanagar","jayanagar",10,10,50,55,60,0,77.5813900000882,12.9285800003268,TRUE,0.1667
+2021,"West","Unknown","Banashankari","banashankari",13,13,57,58,70,0,77.5677911256067,12.9289878325586,TRUE,0.1857
+2021,"West","Unknown","K.Swamy Lyt.","kswamy lyt",45,48,95,129,140,0,NA,NA,FALSE,0.3429
+2021,"North","Unknown","RT Nagar","r t nagar",10,10,55,50,65,0,77.5886465824464,13.0333565345041,TRUE,0.1538
+2021,"North","Unknown","Hebbala","hebbala",18,18,97,99,115,0,NA,NA,FALSE,0.1565
+2021,"North","Unknown","Yelahanka","yelahanka",48,52,124,151,172,0,77.5940811109578,13.0949366661803,TRUE,0.3023
+2021,"North","Unknown","Chikjala","chikjala",32,40,157,191,189,0,NA,NA,FALSE,0.2116
+2021,"North","Unknown","Devanahalli","devanahalli",23,24,145,209,168,0,NA,NA,FALSE,0.1429
+2022,"East","Unknown","Cubbon Park","cubbonpark",4,5,33,31,37,0,77.5978499995698,12.9759333330466,TRUE,0.1351
+2022,"East","Unknown","H.Grounds","high grounds",4,4,45,33,49,0,77.5830472220116,12.9847111107347,TRUE,0.0816
+2022,"East","Unknown","S.S.Nagar","sadashivanagar",13,13,55,50,68,0,77.572563889212,13.0148472217016,TRUE,0.1912
+2022,"East","Unknown","U.Gate","upparpet",5,5,30,27,35,0,77.5750017556543,12.9745057476114,TRUE,0.1429
+2022,"East","Unknown","Ashokanagar","ashoknagar",4,4,31,29,35,0,77.6103305562667,12.9716333327417,TRUE,0.1143
+2022,"East","Unknown","W.Garden","wilson garden",6,7,48,51,54,0,NA,NA,FALSE,0.1296
+2022,"East","Unknown","Ulsoor","halasooru",13,14,63,80,76,0,77.6253111106229,12.9747000002684,TRUE,0.1842
+2022,"East","Unknown","Indiranagar","indiranagar",13,13,35,40,48,0,NA,NA,FALSE,0.2708
+2022,"East","Unknown","F.Town","ftown",4,4,5,5,9,0,NA,NA,FALSE,0.4444
+2022,"East","Unknown","Banasawadi","banasawadi",22,22,94,118,116,0,77.6402194435504,13.0195027775533,TRUE,0.1897
+2022,"East","Unknown","Shivajinagar","shivajinagar",4,4,21,25,25,0,77.6034222217947,12.9879194436417,TRUE,0.16
+2022,"East","Unknown","K G Halli","k g halli",7,7,23,24,30,0,77.6190444442519,13.0195361113638,TRUE,0.2333
+2022,"East","Unknown","Adugodi","adugodi",6,6,36,41,42,0,77.608588888716,12.9415222221275,TRUE,0.1429
+2022,"East","Unknown","Madivala","madivala",13,13,32,30,45,0,77.6207250004286,12.9209916672212,TRUE,0.2889
+2022,"East","Unknown","Electronic City","electronic city",26,26,113,128,139,0,77.6617833330928,12.8391916668387,TRUE,0.1871
+2022,"East","Unknown","Mico layout","mico layout",11,11,42,44,53,0,77.6000611111641,12.9132777784321,TRUE,0.2075
+2022,"East","Unknown","HuliMavu","hulimavu",10,11,103,93,113,0,77.5889944438037,12.8565111111396,TRUE,0.0973
+2022,"East","Unknown","HSR Layout","hsr layout",14,14,50,56,64,0,77.6616669484753,12.9219612532365,TRUE,0.2188
+2022,"East","Unknown","K.R.Pura","krpura",39,39,166,191,205,0,NA,NA,FALSE,0.1902
+2022,"East","Unknown","Airport","airport",18,18,65,65,83,0,NA,NA,FALSE,0.2169
+2022,"East","Unknown","White Field","white field",39,39,127,127,166,0,NA,NA,FALSE,0.2349
+2022,"West","Unknown","Upparpet","upparpet",3,3,24,25,27,0,77.5750017556543,12.9745057476114,TRUE,0.1111
+2022,"West","Unknown","Chickpet","chickpet",7,7,33,32,40,0,77.5681528496062,12.9609817288076,TRUE,0.175
+2022,"West","Unknown","City Market","city market",3,3,15,14,18,0,77.5736625414289,12.9707580957203,TRUE,0.1667
+2022,"West","Unknown","Magadi Road","magadi road",4,4,16,17,20,0,77.5510560002498,12.9746540000128,TRUE,0.2
+2022,"West","Unknown","Vijayanagar","vijayanagar",9,9,75,83,84,0,77.5400378966948,12.9676958598672,TRUE,0.1071
+2022,"West","Unknown","B.Pura","bpura",39,40,122,110,161,0,NA,NA,FALSE,0.2484
+2022,"West","Unknown","Kamakshipalya","kamakshipalya",49,50,151,146,200,0,77.5327008333068,12.9821666670146,TRUE,0.25
+2022,"West","Unknown","Kengeri","kengeri",34,36,87,108,121,0,77.4815072286419,12.9105461664563,TRUE,0.2975
+2022,"West","Unknown","Malleswaram","malleswaram",6,6,50,45,56,0,NA,NA,FALSE,0.1071
+2022,"West","Unknown","Rajajinagar","rajajinagar",25,27,76,77,101,0,77.5542211644862,12.9945588996388,TRUE,0.2673
+2022,"West","Unknown","Y.Pura","ypura",13,13,61,55,74,0,NA,NA,FALSE,0.1757
+2022,"West","Unknown","Peenya","peenya",32,33,146,135,178,0,77.5211641802431,13.0360555191998,TRUE,0.1854
+2022,"West","Unknown","Jalahalli","jalahalli",15,16,65,75,80,0,77.5494851412181,13.0486969233808,TRUE,0.2
+2022,"West","Unknown","Chamarajapet","chamarajapet",7,7,44,46,51,0,NA,NA,FALSE,0.1373
+2022,"West","Unknown","Basavanagudi","basavanagudi",7,7,78,59,85,0,77.5742712536436,12.9420741309031,TRUE,0.0824
+2022,"West","Unknown","Jayanagar","jayanagar",8,8,85,89,93,0,77.5813900000882,12.9285800003268,TRUE,0.086
+2022,"West","Unknown","Banashankari","banashankari",16,17,51,55,67,0,77.5677911256067,12.9289878325586,TRUE,0.2537
+2022,"West","Unknown","K.Swamy Lyt.","kswamy lyt",34,36,141,159,175,0,NA,NA,FALSE,0.2057
+2022,"North","Unknown","RT Nagar","r t nagar",11,11,56,50,67,0,77.5886465824464,13.0333565345041,TRUE,0.1642
+2022,"North","Unknown","Hebbala","hebbala",29,30,72,88,101,0,NA,NA,FALSE,0.297
+2022,"North","Unknown","Yelahanka","yelahanka",53,56,151,154,204,0,77.5940811109578,13.0949366661803,TRUE,0.2745
+2022,"North","Unknown","Chikjala","chikjala",42,42,132,144,174,0,NA,NA,FALSE,0.2414
+2022,"North","Unknown","Devanahalli","devanahalli",30,31,124,164,154,0,NA,NA,FALSE,0.2013
+2023,"East","East","Halasooru","halasooru",11,11,56,48,67,0,77.6253111106229,12.9747000002684,TRUE,0.1642
+2023,"East","East","Indiranagar","indiranagar",12,12,73,62,85,0,NA,NA,FALSE,0.1412
+2023,"East","East","Pulikeshinagar","pulikeshinagar",4,4,23,24,27,0,NA,NA,FALSE,0.1481
+2023,"East","East","Banasawadi","banasawadi",14,15,77,82,91,0,77.6402194435504,13.0195027775533,TRUE,0.1648
+2023,"East","East","Shivajinagar","shivajinagar",6,6,21,19,27,0,77.6034222217947,12.9879194436417,TRUE,0.2222
+2023,"East","East","K G Halli","k g halli",6,6,34,39,40,0,77.6190444442519,13.0195361113638,TRUE,0.15
+2023,"East","Whitefield","K R Puram","k r puram",41,42,213,217,254,0,77.6938361113647,13.0079694436787,TRUE,0.1654
+2023,"East","Whitefield","Airport","airport",17,17,80,80,97,0,NA,NA,FALSE,0.1753
+2023,"East","Whitefield","Whitefield","whitefield",43,44,180,163,223,0,77.7571611107818,12.9942472220074,TRUE,0.1973
+2023,"East","Whitefield","Mahadevapura","mahadevapura",11,12,82,72,93,0,NA,NA,FALSE,0.129
+2023,"West","Central","Cubbon Park","cubbonpark",2,2,54,41,56,0,77.5978499995698,12.9759333330466,TRUE,0.0357
+2023,"West","Central","H.Grounds","high grounds",6,6,50,47,56,0,77.5830472220116,12.9847111107347,TRUE,0.1071
+2023,"West","Central","S.S.Nagar","sadashivanagar",8,8,39,33,47,0,77.572563889212,13.0148472217016,TRUE,0.1702
+2023,"West","Central","U.Gate","upparpet",7,8,47,44,54,0,77.5750017556543,12.9745057476114,TRUE,0.1481
+2023,"West","Central","Ashokanagar","ashoknagar",6,6,32,30,38,0,77.6103305562667,12.9716333327417,TRUE,0.1579
+2023,"West","Central","W.Garden","wilson garden",6,6,59,45,65,0,NA,NA,FALSE,0.0923
+2023,"West","West","Upparpet","upparpet",9,9,20,18,29,0,77.5750017556543,12.9745057476114,TRUE,0.3103
+2023,"West","West","Chickpet","chickpet",9,10,37,31,46,0,77.5681528496062,12.9609817288076,TRUE,0.2174
+2023,"West","West","City Market","city market",9,9,23,28,32,0,77.5736625414289,12.9707580957203,TRUE,0.2812
+2023,"West","West","Bytarayanapura","bytarayanapura",19,19,163,125,182,0,NA,NA,FALSE,0.1044
+2023,"West","West","Kengeri","kengeri",58,59,221,237,279,0,77.4815072286419,12.9105461664563,TRUE,0.2115
+2023,"West","Vijayanagar","Vijayanagar","vijayanagar",16,16,63,66,79,0,77.5400378966948,12.9676958598672,TRUE,0.2025
+2023,"West","Vijayanagar","Magadi Road","magadi road",7,7,43,42,50,0,77.5510560002498,12.9746540000128,TRUE,0.14
+2023,"West","Vijayanagar","Kamakshipalya","kamakshipalya",40,41,201,202,241,0,77.5327008333068,12.9821666670146,TRUE,0.1701
+2023,"North","North East","R T Nagar","r t nagar",8,8,74,63,82,0,77.5886465824464,13.0333565345041,TRUE,0.0976
+2023,"North","North East","Hebbala","hebbala",24,24,120,118,144,0,NA,NA,FALSE,0.1667
+2023,"North","North East","Yalahanka","yalahanka",58,63,178,222,236,0,NA,NA,FALSE,0.2669
+2023,"North","North East","Chikkajala","chikkajala",36,39,101,129,137,0,77.6335682558611,13.1723696635458,TRUE,0.2847
+2023,"North","North East","Int. Aiport","int aiport",59,61,173,215,232,0,NA,NA,FALSE,0.2629
+2023,"North","North East","Hennuru","hennuru",23,24,80,84,103,0,NA,NA,FALSE,0.233
+2023,"North","North","Malleshwaram","malleshwaram",18,18,81,88,99,0,77.5696064323857,12.9966521669095,TRUE,0.1818
+2023,"North","North","Rajajinagar","rajajinagar",16,17,86,82,102,0,77.5542211644862,12.9945588996388,TRUE,0.1667
+2023,"North","North","Yashawanthapura","yashawanthapura",21,22,85,82,106,0,NA,NA,FALSE,0.2075
+2023,"North","North","Peenya","peenya",32,32,160,191,192,0,77.5211641802431,13.0360555191998,TRUE,0.1667
+2023,"North","North","Jalahalli","jalahalli",28,29,74,84,102,0,77.5494851412181,13.0486969233808,TRUE,0.2843
+2023,"South","South East","Adugodi","adugodi",10,10,53,67,63,0,77.608588888716,12.9415222221275,TRUE,0.1587
+2023,"South","South East","Madivala","madivala",14,14,59,53,73,0,77.6207250004286,12.9209916672212,TRUE,0.1918
+2023,"South","South East","Micolayout","micolayout",14,14,74,71,88,0,NA,NA,FALSE,0.1591
+2023,"South","South East","Hulimavu","hulimavu",16,16,92,117,108,0,77.5889944438037,12.8565111111396,TRUE,0.1481
+2023,"South","South","Chamarajpet","chamarajpet",4,4,25,22,29,0,NA,NA,FALSE,0.1379
+2023,"South","South","Basavanagudi","basavanagudi",3,3,99,98,102,0,77.5742712536436,12.9420741309031,TRUE,0.0294
+2023,"South","South","Jayanagar","jayanagar",13,13,77,77,90,0,77.5813900000882,12.9285800003268,TRUE,0.1444
+2023,"South","South","Banashankari","banashankari",15,15,75,66,90,0,77.5677911256067,12.9289878325586,TRUE,0.1667
+2023,"South","South","K S Layout","k s layout",18,18,136,137,154,0,NA,NA,FALSE,0.1169
+2023,"South","South","Thalagattapura","thalagattapura",22,26,67,69,89,0,NA,NA,FALSE,0.2921
+2023,"South","HSR Layout","HSR Layout","hsr layout",16,17,40,56,56,0,77.6616669484753,12.9219612532365,TRUE,0.3036
+2023,"South","HSR Layout","Electronic City","electronic city",38,39,158,171,196,0,77.6617833330928,12.8391916668387,TRUE,0.199
+2023,"South","HSR Layout","Bellanduru","bellanduru",9,9,34,34,43,0,NA,NA,FALSE,0.2093
+2024,"East","East","Halasooru","halasooru",12,NA,49,NA,61,0,77.6253111106229,12.9747000002684,TRUE,NA
+2024,"East","East","Indiranagar","indiranagar",21,NA,98,NA,119,0,NA,NA,FALSE,NA
+2024,"East","East","Pulikeshinagar","pulikeshinagar",4,NA,14,NA,18,0,NA,NA,FALSE,NA
+2024,"East","East","Banasawadi","banasawadi",6,NA,59,NA,65,0,77.6402194435504,13.0195027775533,TRUE,NA
+2024,"East","East","Shivajinagar","shivajinagar",4,NA,30,NA,34,0,77.6034222217947,12.9879194436417,TRUE,NA
+2024,"East","East","K G Halli","k g halli",7,NA,47,NA,54,0,77.6190444442519,13.0195361113638,TRUE,NA
+2024,"East","Whitefield","K R Puram","k r puram",34,NA,207,NA,241,0,77.6938361113647,13.0079694436787,TRUE,NA
+2024,"East","Whitefield","Airport","airport",22,NA,74,NA,96,0,NA,NA,FALSE,NA
+2024,"East","Whitefield","Whitefield","whitefield",44,NA,145,NA,189,0,77.7571611107818,12.9942472220074,TRUE,NA
+2024,"East","Whitefield","Mahadevapura","mahadevapura",17,NA,89,NA,106,0,NA,NA,FALSE,NA
+2024,"West","Central","Cubbon Park","cubbonpark",6,NA,42,NA,48,0,77.5978499995698,12.9759333330466,TRUE,NA
+2024,"West","Central","H.Grounds","high grounds",7,NA,48,NA,55,0,77.5830472220116,12.9847111107347,TRUE,NA
+2024,"West","Central","S.S.Nagar","sadashivanagar",5,NA,48,NA,53,0,77.572563889212,13.0148472217016,TRUE,NA
+2024,"West","Central","U.Gate","upparpet",6,NA,62,NA,68,0,77.5750017556543,12.9745057476114,TRUE,NA
+2024,"West","Central","Ashokanagar","ashoknagar",4,NA,31,NA,35,0,77.6103305562667,12.9716333327417,TRUE,NA
+2024,"West","Central","W.Garden","wilson garden",6,NA,53,NA,59,0,NA,NA,FALSE,NA
+2024,"West","West","Upparpet","upparpet",11,NA,35,NA,46,0,77.5750017556543,12.9745057476114,TRUE,NA
+2024,"West","West","Chickpet","chickpet",8,NA,33,NA,41,0,77.5681528496062,12.9609817288076,TRUE,NA
+2024,"West","West","City Market","city market",11,NA,31,NA,42,0,77.5736625414289,12.9707580957203,TRUE,NA
+2024,"West","West","Bytarayanapura","bytarayanapura",19,NA,127,NA,146,0,NA,NA,FALSE,NA
+2024,"West","West","Kengeri","kengeri",31,NA,146,NA,177,0,77.4815072286419,12.9105461664563,TRUE,NA
+2024,"West","West","Jnanabharathi","jnanabharathi",22,NA,119,NA,141,0,NA,NA,FALSE,NA
+2024,"West","Vijayanagar","Vijayanagar","vijayanagar",6,NA,52,NA,58,0,77.5400378966948,12.9676958598672,TRUE,NA
+2024,"West","Vijayanagar","Magadi Road","magadi road",4,NA,36,NA,40,0,77.5510560002498,12.9746540000128,TRUE,NA
+2024,"West","Vijayanagar","Kamakshipalya","kamakshipalya",18,NA,126,NA,144,0,77.5327008333068,12.9821666670146,TRUE,NA
+2024,"North","North East","R T Nagar","r t nagar",7,NA,54,NA,61,0,77.5886465824464,13.0333565345041,TRUE,NA
+2024,"North","North East","Hebbala","hebbala",29,NA,148,NA,177,0,NA,NA,FALSE,NA
+2024,"North","North East","Yalahanka","yalahanka",56,NA,186,NA,242,0,NA,NA,FALSE,NA
+2024,"North","North East","Chikkajala","chikkajala",32,NA,108,NA,140,0,77.6335682558611,13.1723696635458,TRUE,NA
+2024,"North","North East","Int. Aiport","int aiport",60,NA,180,NA,240,0,NA,NA,FALSE,NA
+2024,"North","North East","Hennuru","hennuru",32,NA,95,NA,127,0,NA,NA,FALSE,NA
+2024,"North","North","Malleshwaram","malleshwaram",10,NA,56,NA,66,0,77.5696064323857,12.9966521669095,TRUE,NA
+2024,"North","North","Rajajinagar","rajajinagar",11,NA,88,NA,99,0,77.5542211644862,12.9945588996388,TRUE,NA
+2024,"North","North","Yashawanthapura","yashawanthapura",25,NA,73,NA,98,0,NA,NA,FALSE,NA
+2024,"North","North","Peenya","peenya",26,NA,111,NA,137,0,77.5211641802431,13.0360555191998,TRUE,NA
+2024,"North","North","Jalahalli","jalahalli",15,NA,54,NA,69,0,77.5494851412181,13.0486969233808,TRUE,NA
+2024,"North","North","Chikkabanavara","chikkabanavara",16,NA,74,NA,90,0,NA,NA,FALSE,NA
+2024,"South","South East","Adugodi","adugodi",5,NA,45,NA,50,0,77.608588888716,12.9415222221275,TRUE,NA
+2024,"South","South East","Madivala","madivala",21,NA,81,NA,102,0,77.6207250004286,12.9209916672212,TRUE,NA
+2024,"South","South East","Micolayout","micolayout",23,NA,73,NA,96,0,NA,NA,FALSE,NA
+2024,"South","South East","Hulimavu","hulimavu",10,NA,61,NA,71,0,77.5889944438037,12.8565111111396,TRUE,NA
+2024,"South","South","Chamarajpet","chamarajpet",0,NA,15,NA,15,0,NA,NA,FALSE,NA
+2024,"South","South","Basavanagudi","basavanagudi",8,NA,82,NA,90,0,77.5742712536436,12.9420741309031,TRUE,NA
+2024,"South","South","Jayanagar","jayanagar",12,NA,73,NA,85,0,77.5813900000882,12.9285800003268,TRUE,NA
+2024,"South","South","Banashankari","banashankari",11,NA,68,NA,79,0,77.5677911256067,12.9289878325586,TRUE,NA
+2024,"South","South","K S Layout","k s layout",20,NA,90,NA,110,0,NA,NA,FALSE,NA
+2024,"South","South","Thalagattapura","thalagattapura",20,NA,104,NA,124,0,NA,NA,FALSE,NA
+2024,"South","HSR Layout","HSR Layout","hsr layout",12,NA,49,NA,61,0,77.6616669484753,12.9219612532365,TRUE,NA
+2024,"South","HSR Layout","Electronic City","electronic city",42,NA,136,NA,178,0,77.6617833330928,12.8391916668387,TRUE,NA
+2024,"South","HSR Layout","Bellanduru","bellanduru",14,NA,43,NA,57,0,NA,NA,FALSE,NA

@@ -1,0 +1,7 @@
+"Metric","Value"
+"Accuracy",0.8138
+"Precision",0.6048
+"Recall",0.5066
+"F1_Score",0.5514
+"Prevalence",0.2258
+"N",5672

@@ -1,0 +1,4 @@
+"Model","Model_Type","MAE","RMSE","R_Squared","RMSE_Improvement_vs_Baseline_Pct","Evaluation_Period","Test_Observations"
+"Persistence Baseline (Lag-1)","Naive Time-Series Baseline",5.387,14.327,0.9591,0,"2017-05-23 to 2017-05-25",5672
+"Multi-variable Linear Regression","Statistical Linear Model",6.712,14.115,0.9603,1.48,"2017-05-23 to 2017-05-25",5672
+"Random Forest Regression (Ensemble)","Machine Learning Ensemble",7.202,13.823,0.962,3.52,"2017-05-23 to 2017-05-25",5672

@@ -1,0 +1,142 @@
+==============================================================================
+UrbanPulse: Comprehensive Dataset Validation & Quality Audit Report
+Generated on: 2026-11-02 23:36:08.312695
+==============================================================================
+
+--- DATASET: TRAFFIC FLOW (UTD19) ---
+Dimensions       : 246802 rows x 8 columns (14.13 MB)
+Duplicate Records: 0 (0.00%)
+Numeric Columns  : interval, flow, occ, error
+Negative Values  : 0 across numeric fields
+High Missing Cols: error, speed
+Column Data Types and Missingness Summary:
+  * day                       | Type: Date       | Missing: 0 (0.0%)
+  * interval                  | Type: numeric    | Missing: 0 (0.0%)
+  * detid                     | Type: character  | Missing: 0 (0.0%)
+  * flow                      | Type: numeric    | Missing: 0 (0.0%)
+  * occ                       | Type: numeric    | Missing: 0 (0.0%)
+  * error                     | Type: numeric    | Missing: 135374 (54.9%)
+  * city                      | Type: character  | Missing: 0 (0.0%)
+  * speed                     | Type: logical    | Missing: 246802 (100.0%)
+
+--- DATASET: DETECTORS METADATA ---
+Dimensions       : 23626 rows x 11 columns (3.63 MB)
+Duplicate Records: 0 (0.00%)
+Numeric Columns  : length, pos, limit, lanes, linkid, long, lat
+Negative Values  : 10919 across numeric fields
+High Missing Cols: limit
+Column Data Types and Missingness Summary:
+  * detid                     | Type: character  | Missing: 0 (0.0%)
+  * length                    | Type: numeric    | Missing: 0 (0.0%)
+  * pos                       | Type: numeric    | Missing: 45 (0.2%)
+  * fclass                    | Type: character  | Missing: 0 (0.0%)
+  * road                      | Type: character  | Missing: 1541 (6.5%)
+  * limit                     | Type: numeric    | Missing: 6640 (28.1%)
+  * citycode                  | Type: character  | Missing: 0 (0.0%)
+  * lanes                     | Type: numeric    | Missing: 4 (0.0%)
+  * linkid                    | Type: numeric    | Missing: 605 (2.6%)
+  * long                      | Type: numeric    | Missing: 0 (0.0%)
+  * lat                       | Type: numeric    | Missing: 0 (0.0%)
+
+--- DATASET: BENGALURU CRASH STATION PANEL ---
+Dimensions       : 186 rows x 15 columns (0.04 MB)
+Duplicate Records: 0 (0.00%)
+Numeric Columns  : year, fatal_crashes, killed_people, non_fatal_crashes, injured_people, total_crashes, total_mismatch_flag, longitude, latitude, fatality_rate
+Negative Values  : 0 across numeric fields
+High Missing Cols: killed_people, injured_people, longitude, latitude
+Column Data Types and Missingness Summary:
+  * year                      | Type: numeric    | Missing: 0 (0.0%)
+  * zone                      | Type: character  | Missing: 0 (0.0%)
+  * sub_division              | Type: character  | Missing: 0 (0.0%)
+  * station_raw               | Type: character  | Missing: 0 (0.0%)
+  * station_norm              | Type: character  | Missing: 0 (0.0%)
+  * fatal_crashes             | Type: numeric    | Missing: 0 (0.0%)
+  * killed_people             | Type: numeric    | Missing: 50 (26.9%)
+  * non_fatal_crashes         | Type: numeric    | Missing: 0 (0.0%)
+  * injured_people            | Type: numeric    | Missing: 50 (26.9%)
+  * total_crashes             | Type: numeric    | Missing: 0 (0.0%)
+  * total_mismatch_flag       | Type: numeric    | Missing: 0 (0.0%)
+  * longitude                 | Type: numeric    | Missing: 62 (33.3%)
+  * latitude                  | Type: numeric    | Missing: 62 (33.3%)
+  * coord_valid               | Type: logical    | Missing: 0 (0.0%)
+  * fatality_rate             | Type: numeric    | Missing: 0 (0.0%)
+
+--- DATASET: BENGALURU CRASH TREND 2007-2025 ---
+Dimensions       : 19 rows x 5 columns (0.01 MB)
+Duplicate Records: 0 (0.00%)
+Numeric Columns  : Year, Fatal Road Accidents, Killed, Non-Fatal Road Accidents, Total
+Negative Values  : 0 across numeric fields
+High Missing Cols: 
+Column Data Types and Missingness Summary:
+  * Year                      | Type: numeric    | Missing: 0 (0.0%)
+  * Fatal Road Accidents      | Type: numeric    | Missing: 0 (0.0%)
+  * Killed                    | Type: numeric    | Missing: 0 (0.0%)
+  * Non-Fatal Road Accidents  | Type: numeric    | Missing: 0 (0.0%)
+  * Total                     | Type: numeric    | Missing: 0 (0.0%)
+
+--- DATASET: REGISTERED VEHICLES ---
+Dimensions       : 26 rows x 13 columns (0.02 MB)
+Duplicate Records: 0 (0.00%)
+Numeric Columns  : 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026
+Negative Values  : 0 across numeric fields
+High Missing Cols: Type of Vehicle
+Column Data Types and Missingness Summary:
+  * Sl No                     | Type: character  | Missing: 4 (15.4%)
+  * Category                  | Type: character  | Missing: 0 (0.0%)
+  * Type of Vehicle           | Type: character  | Missing: 8 (30.8%)
+  * 2017                      | Type: numeric    | Missing: 0 (0.0%)
+  * 2018                      | Type: numeric    | Missing: 0 (0.0%)
+  * 2019                      | Type: numeric    | Missing: 0 (0.0%)
+  * 2020                      | Type: numeric    | Missing: 0 (0.0%)
+  * 2021                      | Type: numeric    | Missing: 0 (0.0%)
+  * 2022                      | Type: numeric    | Missing: 0 (0.0%)
+  * 2023                      | Type: numeric    | Missing: 0 (0.0%)
+  * 2024                      | Type: numeric    | Missing: 0 (0.0%)
+  * 2025                      | Type: numeric    | Missing: 0 (0.0%)
+  * 2026                      | Type: numeric    | Missing: 0 (0.0%)
+
+--- DATASET: TRAFFIC VIOLATIONS ---
+Dimensions       : 15 rows x 13 columns (0.01 MB)
+Duplicate Records: 0 (0.00%)
+Numeric Columns  : YEAR, M.V.Act Cases, M.V.Act Fine, K.P.Act Cases, K.P.Act Fine, Towing Cases, Towing Charges, K.T.C Act Cases, K.T.C Act Fine, Automation cases, Automation Fine, Total Cases Booked, Total Fine Collected
+Negative Values  : 0 across numeric fields
+High Missing Cols: K.T.C Act Cases, K.T.C Act Fine
+Column Data Types and Missingness Summary:
+  * YEAR                      | Type: numeric    | Missing: 0 (0.0%)
+  * M.V.Act Cases             | Type: numeric    | Missing: 0 (0.0%)
+  * M.V.Act Fine              | Type: numeric    | Missing: 0 (0.0%)
+  * K.P.Act Cases             | Type: numeric    | Missing: 0 (0.0%)
+  * K.P.Act Fine              | Type: numeric    | Missing: 0 (0.0%)
+  * Towing Cases              | Type: numeric    | Missing: 0 (0.0%)
+  * Towing Charges            | Type: numeric    | Missing: 0 (0.0%)
+  * K.T.C Act Cases           | Type: numeric    | Missing: 4 (26.7%)
+  * K.T.C Act Fine            | Type: numeric    | Missing: 4 (26.7%)
+  * Automation cases          | Type: numeric    | Missing: 0 (0.0%)
+  * Automation Fine           | Type: numeric    | Missing: 0 (0.0%)
+  * Total Cases Booked        | Type: numeric    | Missing: 0 (0.0%)
+  * Total Fine Collected      | Type: numeric    | Missing: 0 (0.0%)
+
+--- DATASET: GEOCODED HOTSPOTS ---
+Dimensions       : 124 rows x 16 columns (0.03 MB)
+Duplicate Records: 0 (0.00%)
+Numeric Columns  : year, fatal_crashes, killed_people, non_fatal_crashes, injured_people, total_crashes, total_mismatch_flag, longitude, latitude, fatality_rate
+Negative Values  : 0 across numeric fields
+High Missing Cols: killed_people, injured_people
+Column Data Types and Missingness Summary:
+  * year                      | Type: numeric    | Missing: 0 (0.0%)
+  * zone                      | Type: character  | Missing: 0 (0.0%)
+  * sub_division              | Type: character  | Missing: 0 (0.0%)
+  * station_raw               | Type: character  | Missing: 0 (0.0%)
+  * station_norm              | Type: character  | Missing: 0 (0.0%)
+  * fatal_crashes             | Type: numeric    | Missing: 0 (0.0%)
+  * killed_people             | Type: numeric    | Missing: 32 (25.8%)
+  * non_fatal_crashes         | Type: numeric    | Missing: 0 (0.0%)
+  * injured_people            | Type: numeric    | Missing: 32 (25.8%)
+  * total_crashes             | Type: numeric    | Missing: 0 (0.0%)
+  * total_mismatch_flag       | Type: numeric    | Missing: 0 (0.0%)
+  * longitude                 | Type: numeric    | Missing: 0 (0.0%)
+  * latitude                  | Type: numeric    | Missing: 0 (0.0%)
+  * coord_valid               | Type: logical    | Missing: 0 (0.0%)
+  * fatality_rate             | Type: numeric    | Missing: 0 (0.0%)
+  * spatial_corridor_id       | Type: character  | Missing: 4 (3.2%)
+

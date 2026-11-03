@@ -1,0 +1,3 @@
+"strategy","train_records_used","test_records_used","imputation_count","rmse","mae","analytical_risk"
+"Complete Case Deletion",28351,9454,0,13.641,6.402,"Discards valid observations during sensor degradation; potential sample selection bias."
+"Training Median Imputation (Recommended)",28359,9454,0,13.641,6.403,"Robust to outliers; strictly prevents data leakage from future/test partitions."

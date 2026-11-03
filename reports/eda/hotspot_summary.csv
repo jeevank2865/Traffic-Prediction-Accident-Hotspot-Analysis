@@ -1,0 +1,21 @@
+"year","zone","sub_division","station_raw","station_norm","fatal_crashes","killed_people","non_fatal_crashes","injured_people","total_crashes","total_mismatch_flag","longitude","latitude","coord_valid","fatality_rate","rank","share_of_city_pct","cumulative_share_pct","fatality_percentage"
+2024,"North","North East","Yalahanka","yalahanka",56,NA,186,NA,242,0,NA,NA,FALSE,0.2314,1,5.04,5.04,23.14
+2024,"East","Whitefield","K R Puram","k r puram",34,NA,207,NA,241,0,77.6938361113647,13.0079694436787,TRUE,0.1411,2,5.02,10.06,14.11
+2024,"North","North East","Int. Aiport","int aiport",60,NA,180,NA,240,0,NA,NA,FALSE,0.25,3,5,15.06,25
+2024,"East","Whitefield","Whitefield","whitefield",44,NA,145,NA,189,0,77.7571611107818,12.9942472220074,TRUE,0.2328,4,3.94,19,23.28
+2024,"South","HSR Layout","Electronic City","electronic city",42,NA,136,NA,178,0,77.6617833330928,12.8391916668387,TRUE,0.236,5,3.71,22.71,23.6
+2024,"West","West","Kengeri","kengeri",31,NA,146,NA,177,0,77.4815072286419,12.9105461664563,TRUE,0.1751,6,3.69,26.4,17.51
+2024,"North","North East","Hebbala","hebbala",29,NA,148,NA,177,0,NA,NA,FALSE,0.1638,7,3.69,30.08,16.38
+2024,"West","West","Bytarayanapura","bytarayanapura",19,NA,127,NA,146,0,NA,NA,FALSE,0.1301,8,3.04,33.12,13.01
+2024,"West","Vijayanagar","Kamakshipalya","kamakshipalya",18,NA,126,NA,144,0,77.5327008333068,12.9821666670146,TRUE,0.125,9,3,36.12,12.5
+2024,"West","West","Jnanabharathi","jnanabharathi",22,NA,119,NA,141,0,NA,NA,FALSE,0.156,10,2.94,39.06,15.6
+2024,"North","North East","Chikkajala","chikkajala",32,NA,108,NA,140,0,77.6335682558611,13.1723696635458,TRUE,0.2286,11,2.92,41.98,22.86
+2024,"North","North","Peenya","peenya",26,NA,111,NA,137,0,77.5211641802431,13.0360555191998,TRUE,0.1898,12,2.85,44.83,18.98
+2024,"North","North East","Hennuru","hennuru",32,NA,95,NA,127,0,NA,NA,FALSE,0.252,13,2.65,47.48,25.2
+2024,"South","South","Thalagattapura","thalagattapura",20,NA,104,NA,124,0,NA,NA,FALSE,0.1613,14,2.58,50.06,16.13
+2024,"East","East","Indiranagar","indiranagar",21,NA,98,NA,119,0,NA,NA,FALSE,0.1765,15,2.48,52.54,17.65
+2024,"South","South","K S Layout","k s layout",20,NA,90,NA,110,0,NA,NA,FALSE,0.1818,16,2.29,54.83,18.18
+2024,"East","Whitefield","Mahadevapura","mahadevapura",17,NA,89,NA,106,0,NA,NA,FALSE,0.1604,17,2.21,57.04,16.04
+2024,"South","South East","Madivala","madivala",21,NA,81,NA,102,0,77.6207250004286,12.9209916672212,TRUE,0.2059,18,2.12,59.17,20.59
+2024,"North","North","Rajajinagar","rajajinagar",11,NA,88,NA,99,0,77.5542211644862,12.9945588996388,TRUE,0.1111,19,2.06,61.23,11.11
+2024,"North","North","Yashawanthapura","yashawanthapura",25,NA,73,NA,98,0,NA,NA,FALSE,0.2551,20,2.04,63.27,25.51

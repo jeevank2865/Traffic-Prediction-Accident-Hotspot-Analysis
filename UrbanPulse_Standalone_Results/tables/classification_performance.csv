@@ -1,0 +1,6 @@
+"Metric","Value"
+"Accuracy",0.9562
+"Precision (PPV)",0.9107
+"Recall (Sensitivity)",0.914
+"Specificity",0.9702
+"F1-Score",0.9123

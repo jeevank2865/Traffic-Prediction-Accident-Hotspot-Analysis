@@ -1,0 +1,6 @@
+"Model","Model_Family","MAE","RMSE","R2","MAPE"
+"Persistence Baseline (Lag-1)","Naive Persistence",22.124,44.979,0.9482,13.55
+"Seasonal-Naive (Hour x Weekend)","Historical Seasonal",97.531,134.548,0.5361,66.43
+"Multiple Linear Regression","Parametric Linear",26.088,42.475,0.9538,19.32
+"Decision Tree Regression (CART)","Non-linear Tree",37.137,52.766,0.9287,26.42
+"Random Forest Regression (Ensemble)","Machine Learning Ensemble",24.397,39.595,0.9598,14.08

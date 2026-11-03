@@ -1,0 +1,8 @@
+"Dataset","Rows","Columns","Memory_MB","Duplicate_Rows","Negative_Values","Outlier_Points","Avg_Missing_Pct"
+"Traffic Flow (UTD19)",246802,8,14.13,0,0,34705,19.36
+"Detectors Metadata",23626,11,3.63,0,10919,13287,3.4
+"Bengaluru Crash Station Panel",186,15,0.04,0,0,55,8.03
+"Bengaluru Crash Trend 2007-2025",19,5,0.01,0,0,0,0
+"Registered Vehicles",26,13,0.02,0,0,50,3.55
+"Traffic Violations",15,13,0.01,0,0,12,4.1
+"Geocoded Hotspots",124,16,0.03,0,0,61,3.43
